@@ -1,0 +1,265 @@
+
+header, div, img, h1, h2 ,h3, p, main, footer {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-image:url(imagens/imagem_de_fundo.jpg) ;
+background-size: 100%;
+}
+
+.auto_relevo{position: relative; top: 0;}
+.auto_relevo:hover{top:-4px; box-shadow: 0 4px 4px rgb(51, 51, 49); transition: all .2s ease-in-out;}
+   
+header{
+    border-bottom: 1px dotted;
+}
+.cabeçalho{
+    max-width: 320px;
+    background-color:rgb(190, 240, 170);
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 10px 10px 30px 10px;
+}
+
+.cabeçalho .imagemcruz{
+    width: 24px;
+    height: 42px;
+    position: absolute;
+    top: 3px;
+    height: -15px;
+    right: 35px
+}
+
+.dados_pessoais{
+    margin: 0 auto;
+    
+ }
+
+ header .dados_pessoais p a{
+     text-decoration: none;
+     color: black;
+ }
+
+header{}
+header div img{
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    margin:auto;
+    height: 150px;
+    padding: 10px;
+}
+header div h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header div p{
+    margin-bottom: 5px;
+}
+
+header div span{
+    display: block;
+    margin-bottom: 5px;
+}
+
+main .corpo{
+    max-width: 320px;
+    background-color:rgb(241, 239, 74);
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 10px 10px 30px 10px;
+
+}
+
+main div .dados_corpo{
+    padding: 0px 20px 20px 20px;
+}
+
+main .dados_corpo h2{
+    padding: 10px;
+}
+
+
+main .dados_corpo p{
+    padding: 5px 10px 5px 0px;
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: black;
+}
+.ciencias{
+    margin-left: 10px;
+}
+main ul li{
+    margin: 5px 0 5px 0;
+    line-height: 1.5rem;
+}
+
+
+.listacursos{
+    line-height: 1.8rem;
+}
+
+main{
+    border-bottom: 1px dotted;
+}
+.rodape{
+    max-width: 320px;
+    background-color:rgb(131, 131, 131);
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 10px 10px 30px 10px;
+}
+footer .rodape a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    background-color: turquoise;
+    margin: auto;
+    width: 125px;
+    border: solid 3px black;
+    padding: 5px 5px 5px 15px;
+    margin-bottom: 10px;
+} 
+footer div .direitos{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+@media only screen and (min-width: 450px){
+    
+    .auto_relevo{position: relative; top: 0;}
+    .auto_relevo:hover{top:-4px; box-shadow: 0 4px 4px rgb(51, 51, 49); transition: all .2s ease-in-out;}
+   
+    header{
+        border-bottom: 1px dotted;
+    }
+    .cabeçalho{
+        max-width: 1100px;
+        display: flex;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 10px 10px 30px 10px;
+        background-color:rgb(190, 240, 170);
+    
+    }
+
+    .cabeçalho .imagemcruz{
+        width: 42px;
+        height: 58px;
+        position: absolute;
+        top: -11px;
+        height: -2px;
+        right: 140px;
+    }
+
+    header div img{
+        width: 250px;
+        border-radius: 20px;
+        margin-top: 30px;
+        height: 150px;
+        margin-left: 30px;
+        
+    }
+
+    .dados_pessoais{
+       
+        text-align: left;
+    }
+
+    header .dados_pessoais p a{
+        text-decoration: none;
+        color: black;
+    }
+    header div h1{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    header div p{
+        margin-bottom: 8px;
+    }
+   
+    header div span{
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    main .corpo{
+        max-width: 1100px;
+        background-color:rgb(241, 239, 74);
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 10px 10px 30px 10px;
+    }
+    
+    main div .dados_corpo{
+        padding: 0px 20px 20px 20px;
+    }
+    
+    main .dados_corpo h2{
+        padding: 10px;
+    }
+    
+    
+    main .dados_corpo p{
+        padding: 5px 10px 5px 0px;
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+    }
+    
+    main ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .ciencias{
+        margin-left: 10px;
+    }
+    main ul li{
+        margin: 5px 0 5px 0;
+    }
+
+    main ul li .empresas{
+        line-height: 1.5rem;
+    }
+    .listacursos{
+        line-height: 1rem;
+    }
+
+    main{
+        border-bottom: 1px dotted;
+    }
+    .rodape{
+        max-width: 1100px;
+        background-color:rgb(131, 131, 131);
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 10px 10px 30px 10px;
+    }
+    footer .rodape a{
+        text-decoration: none;
+        color: black;
+        display: block;
+        text-align: center;
+        background-color: turquoise;
+        margin: auto;
+        width: 125px;
+        border: solid 3px black;
+        margin-bottom: 10px;
+    } 
+    footer div .direitos{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
