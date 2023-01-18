@@ -209,6 +209,7 @@ footer div .direitos{
     }
     #img_principal{
         width: 30%;
+        align-items: center;
     }
     .img_principal{
         width: 100%;
