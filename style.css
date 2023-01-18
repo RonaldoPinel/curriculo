@@ -201,7 +201,7 @@ footer div .direitos{
     .cabeçalho{
         max-width: 90%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         margin: 0 auto;
         padding: 20px 10px 30px 10px;
         background-color:rgb(190, 240, 170);
