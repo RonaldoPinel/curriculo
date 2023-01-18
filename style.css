@@ -1,4 +1,5 @@
 
+
 header, div, img, h1, h2 ,h3, p, main, footer {
     margin: 0;
     padding: 0;
@@ -9,21 +10,26 @@ header, div, img, h1, h2 ,h3, p, main, footer {
 body {
 font-family: Arial, Helvetica, sans-serif;
 background-image:url(imagens/imagem_de_fundo.jpg) ;
-background-size: 100%;
+background-size: cover;
+background-repeat: no-repeat;
 }
+@media only screen and (max-width: 499px){
+/* .auto_relevo{position: relative; top: 0;} */
+/* .auto_relevo:hover{top:-4px; box-shadow: 0 4px 4px rgb(51, 51, 49); transition: all .2s ease-in-out;} */
 
-.auto_relevo{position: relative; top: 0;}
-.auto_relevo:hover{top:-4px; box-shadow: 0 4px 4px rgb(51, 51, 49); transition: all .2s ease-in-out;}
-   
 header{
-    border-bottom: 1px dotted;
+   
+    
+    
+  
 }
 .cabeçalho{
-    max-width: 320px;
+    max-width: 90%;
     background-color:rgb(190, 240, 170);
-    align-items: flex-start;
+    align-items: center;
     margin: 0 auto;
     padding: 10px 10px 30px 10px;
+    justify-content: center;
 }
 
 .cabeçalho .imagemcruz{
@@ -69,7 +75,7 @@ header div span{
 }
 
 main .corpo{
-    max-width: 320px;
+    max-width: 90%;
     background-color:rgb(241, 239, 74);
     align-items: flex-start;
     margin: 0 auto;
@@ -113,59 +119,107 @@ main{
     border-bottom: 1px dotted;
 }
 .rodape{
-    max-width: 320px;
-    background-color:rgb(131, 131, 131);
+    max-width: 90%;
+    background-color:rgb(174, 252, 245);
     align-items: flex-start;
     margin: 0 auto;
     padding: 10px 10px 30px 10px;
+}
+.rodape .img{
+    text-align: center;
+}
+
+.img_destaque a:hover{
+    border-bottom: solid 3px black;
+    margin-bottom: -3px;
+    margin-bottom: 7px;
+   
+}
+.rodape strong{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.rodape strong img{
+    width: 50px;
+    text-align: center;
+    
 }
 footer .rodape a{
     text-decoration: none;
     color: black;
     display: block;
     text-align: center;
-    background-color: turquoise;
+    background-color:rgb(174, 252, 245);
     margin: auto;
     width: 125px;
-    border: solid 3px black;
+    /* border: solid 3px black; */
     padding: 5px 5px 5px 15px;
     margin-bottom: 10px;
 } 
 footer div .direitos{
     text-align: center;
     font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
 }
 
-
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 500px){
     
-    .auto_relevo{position: relative; top: 0;}
-    .auto_relevo:hover{top:-4px; box-shadow: 0 4px 4px rgb(51, 51, 49); transition: all .2s ease-in-out;}
+    /* .auto_relevo{position: relative; top: 0;} */
+    .auto_relevo:hover{
+        background-color: black;
+        color: white;
+        padding: 2px;
+        margin: -2px;
+        
+    }
+
+    .dados_pessoais .listacursos a:hover{
+        background-color: black;
+        color: white;
+        padding: 2px;
+        margin: -2px;
+    }
+    .dados_pessoais .p1 a:hover{
+        background-color: black;
+        color: white;
+        padding: 2px;
+        margin: -2px;
+    }
+    .dados_pessoais #email a:hover{
+        background-color: black;
+        color: white;
+        padding: 2px;
+        margin: -2px;
+    }
    
     header{
         border-bottom: 1px dotted;
     }
     .cabeçalho{
-        max-width: 1100px;
+        max-width: 90%;
         display: flex;
         align-items: flex-start;
         margin: 0 auto;
-        padding: 10px 10px 30px 10px;
+        padding: 20px 10px 30px 10px;
         background-color:rgb(190, 240, 170);
     
     }
-
-    .cabeçalho .imagemcruz{
-        width: 42px;
-        height: 58px;
-        position: absolute;
-        top: -11px;
-        height: -2px;
-        right: 140px;
+    #img_principal{
+        width: 30%;
     }
+    .img_principal{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-left: 4%;
+    }
+    
 
     header div img{
-        width: 250px;
+        width: 100%;
         border-radius: 20px;
         margin-top: 30px;
         height: 150px;
@@ -174,30 +228,40 @@ footer div .direitos{
     }
 
     .dados_pessoais{
-       
+       width: 65%;
         text-align: left;
+        margin-left: 4%;
     }
-
+    #celular{
+        width: 200px;
+    }
+    #email{
+        width: 250px;
+    }
     header .dados_pessoais p a{
         text-decoration: none;
         color: black;
     }
     header div h1{
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         margin-top: 10px;
     }
     header div p{
-        margin-bottom: 8px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+        width: 90%;
     }
    
     header div span{
         display: block;
-        margin-bottom: 8px;
+        margin-bottom: 15px;
+        margin-left: 5%;
+        width: 90%;
     }
 
     main .corpo{
-        max-width: 1100px;
+        max-width: 90%;
         background-color:rgb(241, 239, 74);
         align-items: flex-start;
         margin: 0 auto;
@@ -209,22 +273,30 @@ footer div .direitos{
     }
     
     main .dados_corpo h2{
-        padding: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
     }
-    
-    
+       
     main .dados_corpo p{
         padding: 5px 10px 5px 0px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         line-height: 1.5rem;
     }
-    
+ 
     main ul li a{
         text-decoration: none;
         color: black;
+        
     }
     .ciencias{
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .analise{
+        margin-left: 30px;
+    }
+    .pos{
+        margin-left: 30px;
     }
     main ul li{
         margin: 5px 0 5px 0;
@@ -241,25 +313,49 @@ footer div .direitos{
         border-bottom: 1px dotted;
     }
     .rodape{
-        max-width: 1100px;
-        background-color:rgb(131, 131, 131);
-        align-items: flex-start;
+        max-width: 90%;
+        background-color:rgb(174, 252, 245);
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
         padding: 10px 10px 30px 10px;
+    }
+    .rodape .img{
+        text-align: center;
+    }
+
+    .img_destaque a:hover{
+        border-bottom: solid 3px black;
+        margin-bottom: -3px;
+       
+    }
+    .rodape strong{
+        display: inline-block;
+        margin-right: 30px;
+        
+    }
+    .rodape strong img{
+        width: 50px;
+        text-align: center;
+        
     }
     footer .rodape a{
         text-decoration: none;
         color: black;
         display: block;
         text-align: center;
-        background-color: turquoise;
+        background-color:rgb(174, 252, 245);
         margin: auto;
-        width: 125px;
-        border: solid 3px black;
+        width: 60px;
+        /* border: solid 3px black; */
         margin-bottom: 10px;
+        padding: 5px;
     } 
     footer div .direitos{
         text-align: center;
         font-size: 1rem;
+        margin-bottom: -20px;
+        margin-top: 25px;
+        
     }
 }
