@@ -194,14 +194,13 @@ footer div .direitos{
         padding: 2px;
         margin: -2px;
     }
-   
     header{
         border-bottom: 1px dotted;
     }
     .cabeçalho{
         max-width: 90%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         margin: 0 auto;
         padding: 20px 10px 30px 10px;
         background-color:rgb(190, 240, 170);
@@ -216,8 +215,6 @@ footer div .direitos{
         margin: 0;
         margin-left: 4%;
     }
-    
-
     header div img{
         width: 100%;
         border-radius: 20px;
@@ -226,17 +223,16 @@ footer div .direitos{
         margin-left: 30px;
         
     }
-
     .dados_pessoais{
        width: 65%;
         text-align: left;
         margin-left: 4%;
     }
     #celular{
-        width: 200px;
+        width: 270px;
     }
     #email{
-        width: 250px;
+        width: 290px;
     }
     header .dados_pessoais p a{
         text-decoration: none;
@@ -251,15 +247,15 @@ footer div .direitos{
         margin-bottom: 15px;
         margin-left: 5%;
         width: 90%;
+        font-size: 18px;
     }
-   
     header div span{
         display: block;
         margin-bottom: 15px;
         margin-left: 5%;
         width: 90%;
+        font-size: 18px;
     }
-
     main .corpo{
         max-width: 90%;
         background-color:rgb(241, 239, 74);
@@ -267,23 +263,19 @@ footer div .direitos{
         margin: 0 auto;
         padding: 10px 10px 30px 10px;
     }
-    
     main div .dados_corpo{
         padding: 0px 20px 20px 20px;
     }
-    
     main .dados_corpo h2{
     padding: 10px;
     margin-left: 10px;
     margin-top: 25px;
-    }
-       
+    }  
     main .dados_corpo p{
         padding: 5px 10px 5px 0px;
         margin-bottom: 0px;
         line-height: 1.5rem;
     }
- 
     main ul li a{
         text-decoration: none;
         color: black;
@@ -301,14 +293,12 @@ footer div .direitos{
     main ul li{
         margin: 5px 0 5px 0;
     }
-
     main ul li .empresas{
         line-height: 1.5rem;
     }
     .listacursos{
         line-height: 1rem;
     }
-
     main{
         border-bottom: 1px dotted;
     }
@@ -323,15 +313,24 @@ footer div .direitos{
     .rodape .img{
         text-align: center;
     }
-
     .img_destaque a:hover{
         border-bottom: solid 3px black;
         margin-bottom: -3px;
+        width: 100px;
+        margin-left: 0px;
+       
+    }
+     .img_destaque1 a:hover{
+        border-bottom: solid 3px black;
+        margin-bottom: -3px;
+        width: 100px;
+        margin-left: 0px;
        
     }
     .rodape strong{
         display: inline-block;
         margin-right: 30px;
+        
         
     }
     .rodape strong img{
@@ -346,7 +345,7 @@ footer div .direitos{
         text-align: center;
         background-color:rgb(174, 252, 245);
         margin: auto;
-        width: 60px;
+        width: 100px;
         /* border: solid 3px black; */
         margin-bottom: 10px;
         padding: 5px;
