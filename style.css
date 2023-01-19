@@ -67,11 +67,13 @@ header div h1{
 
 header div p{
     margin-bottom: 5px;
+    padding: 0px 7px;
 }
 
 header div span{
     display: block;
     margin-bottom: 5px;
+    padding: 0px 7px;
 }
 
 main .corpo{
@@ -84,11 +86,11 @@ main .corpo{
 }
 
 main div .dados_corpo{
-    padding: 0px 20px 20px 20px;
+    padding: 0px 15px 20px 15px;
 }
 
 main .dados_corpo h2{
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 
@@ -97,13 +99,15 @@ main .dados_corpo p{
     margin-bottom: 30px;
     line-height: 1.5rem;
 }
-
+main ul{
+    padding-left: 15px;
+}
 main ul li a{
     text-decoration: none;
     color: black;
 }
 .ciencias{
-    margin-left: 10px;
+
 }
 main ul li{
     margin: 5px 0 5px 0;
@@ -128,7 +132,9 @@ main{
 .rodape .img{
     text-align: center;
 }
-
+.img_destaque a{
+    display: block;
+}
 .img_destaque a:hover{
     border-bottom: solid 3px black;
     margin-bottom: -3px;
@@ -152,7 +158,7 @@ footer .rodape a{
     text-align: center;
     background-color:rgb(174, 252, 245);
     margin: auto;
-    width: 125px;
+    width: 100px;
     /* border: solid 3px black; */
     padding: 5px 5px 5px 15px;
     margin-bottom: 10px;
